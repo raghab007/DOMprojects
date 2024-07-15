@@ -3,7 +3,7 @@
 #Code solutions
 
 ## Project1 code (Background Changer)
-'''
+```
 const allBtns = document.querySelectorAll('.button');
 for (let btn of allBtns) {
   btn.addEventListener('click', function (e) {
@@ -11,7 +11,7 @@ for (let btn of allBtns) {
     document.body.style.backgroundColor = e.target.id;
   });
 }
-'''
+```
 
 
 
