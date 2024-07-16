@@ -3,7 +3,7 @@
 #Code solutions
 
 ## Project1 code (Background Changer)
-```
+```javascript
 const allBtns = document.querySelectorAll('.button');
 for (let btn of allBtns) {
   btn.addEventListener('click', function (e) {
